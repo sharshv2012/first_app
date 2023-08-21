@@ -4,7 +4,7 @@ void main() {
   runApp(
     const MaterialApp(
       home: Scaffold(
-        body: GradientContainer(), // added custom widget 
+        body: GradientContainer(Color.fromARGB(0, 16, 157, 131) , Color.fromARGB(0, 240, 23, 179)), // added custom widget 
       ),
     ),
   ); //using cosnt is used to avoid duplicate memory allocation if the widgets are reused it's a clean coding practice in flutter.
